@@ -1,0 +1,55 @@
+System Requirements
+
+1. Hardware Requirements
+
+Processor: Intel i5 or above (or equivalent AMD)
+
+RAM: Minimum 4 GB (8 GB recommended)
+
+Storage: At least 500 MB free space for datasets, dependencies, and logs
+
+GPU: Not required (unless using deep learning models)
+
+---
+
+2. Software Requirements
+
+Operating System: Windows, macOS, or Linux
+
+Python Version: 3.7 or above
+
+Libraries/Packages:
+
+Flask – for web deployment
+
+scikit-learn – for machine learning models
+
+pandas – for data manipulation
+
+numpy – for numerical computation
+
+matplotlib / seaborn – for visualization (optional)
+
+pickle – for model saving/loading
+
+
+Install dependencies using:
+
+pip install -r requirements.txt
+
+---
+
+3. Data Requirements
+Input Dataset: A structured CSV file with historical customer data.
+Suggested Features:
+CustomerID (optional)
+Tenure
+MonthlyCharges
+TotalCharges
+Contract Type
+Payment Method
+Gender
+SeniorCitizen
+InternetService
+Churn (target variable: Yes/No or 1/0)
+Sample Source: Telco Customer Churn Dataset (Kaggle)
